@@ -1,9 +1,8 @@
-import { AboutController } from "./controllers/AboutController.js";
 import { CarsController } from "./controllers/CarsController.js";
 import { HomeController } from "./controllers/HomeController.js";
-import { ValuesController } from "./controllers/ValuesController.js";
-import { AboutView } from "./views/AboutView.js";
+import { HousesController } from "./controllers/HousesController.js";
 import { CarsView } from "./views/CarsView.js";
+import { HousesView } from "./views/HousesView.js";
 
 /**
  * Register your routes for the application here
@@ -18,9 +17,9 @@ export const router = [
     `
   },
   {
-    path: '#/about',
-    controller: [AboutController, ValuesController],
-    view: AboutView
+    path: '#/houses',
+    controller: HousesController,
+    view: HousesView
   },
   {
     path: '#/cars',

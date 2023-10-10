@@ -1,18 +1,35 @@
 /* BASIC STYLES HERE */
-label{
+label {
   display: block;
 }
 
-input{
+input {
   width: 100%;
 }
-.car-creator{
+
+p {
+  margin-bottom: 0;
+}
+
+.house-card {
+  background-color: white;
+  box-shadow: 0 3px 6px black;
+  border-radius: 5px;
+}
+
+.house-img {
+  height: 50vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.car-creator {
   height: 10vh;
   width: 10vh;
   object-fit: cover;
 }
 
-.car-img{
+.car-img {
   height: 50vh;
   width: 50vw;
   object-fit: cover;
